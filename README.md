@@ -5,9 +5,6 @@
 <p align="center">
     <strong>Continuation of the original <a href="https://github.com/nilsen84/lunar-client-qt">lunar-client-qt by Nilsen84</a> </br> Moved to a new repo because of the complete rewrite and redesign.</strong>
 </p>
-<p align="center">
-    <img align=center src=".github/assets/screenshot.png" width="600" alt="screenshot of LCT"></br>
-</p>
 
   ## FAQ
   **Q: Can I be banned for using this?** </br>
