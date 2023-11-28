@@ -1,8 +1,6 @@
 <h1 align="center">
-    Lunar Client Qt 2
-    <a href="https://discord.gg/mjvm8PzB2u">
-        <img src=".github/assets/discord.svg" alt="discord" height="32" style="vertical-align: -5px;"/>
-    </a>
+    Lunar Client Tweaks
+    
 </h1>
 <p align="center">
     <strong>Continuation of the original <a href="https://github.com/nilsen84/lunar-client-qt">lunar-client-qt</a> </br> Moved to a new repo because of the complete rewrite and redesign.</strong>
@@ -81,4 +79,3 @@ Use the AUR package: [lunar-client-qt2](https://aur.archlinux.org/packages/lunar
   ```
   > `./gradlew installDebugDist` and `./gradlew runDebug` do the same thing except they build the rust injector in debug mode.
 
-###### Copyright © 2023 Nilsen84 - [License](https://raw.githubusercontent.com/Nilsen84/lcqt2/master/LICENSE)
