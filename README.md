@@ -47,7 +47,7 @@ Simply download and run the setup executable [here](https://github.com/Nilsen84/
 If you prefer a portable version, download the [zip](https://github.com/Nilsen84/lcqt2/releases/latest/download/windows-portable.zip).
 
 #### Arch Linux
-Use the AUR package: [lunar-client-qt2](https://aur.archlinux.org/packages/lunar-client-qt2).
+Use the AUR package: [lunar-client-lct](https://aur.archlinux.org/packages/lunar-client-qt2).
 
 #### macOS/Linux
 > If you are using Linux, be sure to have the `Lunar Client-X.AppImage` renamed to `lunarclient` in `/usr/bin/`. Alternatively, run lcqt2 with `Lunar Client Qt ~/path/to/lunar/appimage`.
