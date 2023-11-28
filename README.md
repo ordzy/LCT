@@ -6,16 +6,16 @@
     <strong>Continuation of the original <a href="https://github.com/nilsen84/lunar-client-qt">lunar-client-qt by Nilsen84</a> </br> Moved to a new repo because of the complete rewrite and redesign.</strong>
 </p>
 <p align="center">
-    <img align=center src=".github/assets/screenshot.png" width="600" alt="screenshot of lcqt"></br>
+    <img align=center src=".github/assets/screenshot.png" width="600" alt="screenshot of LCT"></br>
 </p>
 
   ## FAQ
   **Q: Can I be banned for using this?** </br>
   A: Lets break this into 2 types of bans: </br>
-  - Lunar: While LCQT is *theoretically* detectable on lunars end, as of right now they do not issue client bans. </br>
-  - Hypixel / Other Servers: LCQT does not send any information to the server. As long as you don't abuse any disabled mods (e.g chat macros) you will not be banned.
+  - Lunar: While LCT is *theoretically* detectable on lunars end, as of right now they do not issue client bans. </br>
+  - Hypixel / Other Servers: LCT does not send any information to the server. As long as you don't abuse any disabled mods (e.g chat macros) you will not be banned.
 
-  **Q: What patches are included in the lcqt2 agent?** </br>
+  **Q: What patches are included in the LCT agent?** </br>
   A: In case this goes out of date you can find them [here](https://github.com/Nilsen84/lcqt2/tree/master/agent/src/main/kotlin/io/github/nilsen84/lcqt/patches).  </br>
     *However:*  </br>
   - Cosmetics Unlocker: Unlocks cosmetics for paid Minecraft users.
@@ -64,15 +64,15 @@ Use the AUR package: [lunar-client-qt2](https://aur.archlinux.org/packages/lunar
   - NPM
 
   #### Building
-  LCQT2 is made up of 3 major components:
+  LCT is made up of 3 major components:
   - The injector - responsible for locating the launcher executable and injecting a javascript patch into it
   - The gui - contains the gui opened by pressing the syringe button, also contains the javascript patch used by the injector
   - The agent - java agent which implements all game patches
 
-  In order for lcqt to work properly all 3 components need to be built into the same directory.
+  In order for LCT to work properly all 3 components need to be built into the same directory.
 
   ```bash
-  $ ./gradlew installDist # builds all 3 components and generates a bundle in build/install/lcqt2
+  $ ./gradlew installDist # builds all 3 components and generates a bundle in build/install/LCT
   ```
   ```bash
   $ ./gradlew run # equivalent to ./gradlew installDist && './build/install/lcqt2/Lunar Client Qt'
