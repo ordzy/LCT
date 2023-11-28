@@ -1,5 +1,5 @@
 <h1 align="center">
-    Lunar Client Tweaks
+    Lunar Client Tweaks (LCT)
     
 </h1>
 <p align="center">
